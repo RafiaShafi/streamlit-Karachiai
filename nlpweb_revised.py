@@ -10,6 +10,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import nltk
+nltk.download('all')
 import neattext.functions as nfx
 import matplotlib.pyplot as plt 
 #from wordcloud import WordCloud 
